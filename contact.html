@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Kevin Critchlow</title>
+    <link rel="stylesheet" href="style-contact.css">
+    <link rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"/>
+</head>
+<body>
+<div class="header"> 
+<h1 class="logo">A Portfolio Site</h1>
+<nav class="nav">
+<a href="/index.html">Home</a>
+<a href="/contact.html">Contact</a>
+<a href="/services.html">Services</a>
+</nav>
+</div>
+<div class="section1">
+   
+<!-----------Section for SOCIAL MEDIA/CONTACT FORM------->  
+<section id="contact">
+<!-----------Section for Social icons------->
+    <div class="social-text">
+        <h2 class="social-heading">Find me on any of the social media!</h2> <br><p id="social-text-heading">Please note, I try and limit my social media use so for fastest response, fill out the contact form below</p>
+    </div>
+    <div class="social">
+        <a href="https://www.freecodecamp.org/kevin-critchlow" id="profile-link" target="_blank">
+            <i class="fab fa-free-code-camp"></i></i>
+        <a href="https://github.com/critchlowrobotizing" id="profile-link" target="_blank">
+            <i class="fab fa-github"></i></i>
+        <a href="https://www.facebook.com/profile.php?id=61551379524700" id="profile-link" target="_blank">
+            <i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/company/solidbase-marketing-solutions/" id="profile-link" target="_blank">
+            <i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.youtube.com/@SolidbaseMarketingSolutions/" id="profile-link" target="_blank">
+            <i class="fab fa-youtube"></i></a>
+    </div>        
+    <!-----------Contact Form------->
+    <div id="form">
+        <h1>Contact Form</h1>
+        <p>Please fill out this form with the required information to get in touch with me</p>
+        <form class="contact-form" action="mailto:kevin@solidbasemarketing.com" method="post" enctype="text/plain">
+        <fieldset>
+            <label for="name">First and Last Name:
+                <input id="name" required type="text" placeholder="John Doe"></input></label>
+            <label for="email">Email:
+                <input id="email" required type="email" placeholder="youremail@example.com"></input></label>
+            <label for="phone">Phone:
+                <input type="tel" id="phone" name="phone" placeholder="987-654-3210" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></input></label>
+        </fieldset>
+        <fieldset> 
+            <legend>What skills and/or experience would be most helpful to your position? </legend>
+            <label for="reason1">
+                <input type="checkbox" id="reason1" name="reason1" value="HTML, CSS and Java Skills"> HTML, CSS and Java Skills</label><br>
+            <label for="reason2">
+                <input type="checkbox" id="reason2" name="reason2" value="Digital Marketing & Wordpress Skills"> Digital Marketing & Wordpress Skills</label><br>
+            <label for="reason3">
+                <input type="checkbox" id="reason3" name="reason3" value="Medical Device Sales & Small Business"> Medical Device Sales & Small Business</label>
+        </fieldset>
+        <fieldset>
+            <legend> Do you need my resume or CV?</legend>
+            <label for="yes">
+                <input type="radio" id="yes" name="resume" value="yes">Yes</label>
+                <br>
+            <label for="no">
+                <input type="radio" id="no" name="resume" value="resume">No</label><br>
+        </fieldset>
+        <fieldset>
+            <textarea name="message" rows="10" cols="60">Additional Questions or Feedback
+            </textarea>
+            <input type="submit" value="Submit"></input>
+        </fieldset>
+        </form>
+        </div>
+</section>
+</main>
+<footer>
+<div class="footer-social">
+            <a href="https://www.freecodecamp.org/kevin-critchlow">
+                <i class="fab fa-free-code-camp"></i></i>
+            <a href="https://github.com/critchlowrobotizing">
+                <i class="fab fa-github"></i></i>
+            <a href="https://www.facebook.com/profile.php?id=61551379524700">
+                <i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/company/solidbase-marketing-solutions/">
+                <i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.youtube.com/@SolidbaseMarketingSolutions/">
+                <i class="fab fa-youtube"></i></a>
+</div>
+<div class="footer-nav">
+<nav id="footer-navbar">
+<ul>
+<li><a href="#index">Home</a></li>
+<li><a href="#projects">Portfolio</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</div>
+</footer>
+</body>
+</html>
